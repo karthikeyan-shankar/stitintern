@@ -372,19 +372,19 @@ export default function Home() {
             <div className="grid grid-cols-2 md:grid-cols-6 gap-6 items-stretch">
               
               {/* Apple Card */}
-              <div className="bg-black border border-slate-900 rounded-3xl p-6 flex flex-col items-center justify-between text-center min-h-[175px] shadow-sm hover:scale-[1.03] transition-all duration-300">
-                <AppleIcon className="w-12 h-12 text-slate-200" />
+              <div className="bg-white border border-slate-200 rounded-3xl p-6 flex flex-col items-center justify-between text-center min-h-[175px] shadow-sm hover:scale-[1.03] transition-all duration-300 hover:border-slate-300">
+                <AppleIcon className="w-12 h-12 text-slate-800" />
                 <div className="mt-4">
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-white">APPLE</h4>
+                  <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900">APPLE</h4>
                   <p className="text-[10px] text-slate-500 mt-1">Authorized Partner</p>
                 </div>
               </div>
 
               {/* HP Card */}
-              <div className="bg-black border border-slate-900 rounded-3xl p-6 flex flex-col items-center justify-between text-center min-h-[175px] shadow-sm hover:scale-[1.03] transition-all duration-300">
-                <HPIcon className="w-12 h-12 text-white" />
+              <div className="bg-white border border-slate-200 rounded-3xl p-6 flex flex-col items-center justify-between text-center min-h-[175px] shadow-sm hover:scale-[1.03] transition-all duration-300 hover:border-slate-300">
+                <HPIcon className="w-12 h-12 text-slate-800" />
                 <div className="mt-4">
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-white">HP</h4>
+                  <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900">HP</h4>
                   <p className="text-[10px] text-slate-500 mt-1">Authorized Partner</p>
                 </div>
               </div>
@@ -399,10 +399,10 @@ export default function Home() {
               </div>
 
               {/* Asus Card */}
-              <div className="bg-slate-950 border border-slate-900 rounded-3xl p-6 flex flex-col items-center justify-between text-center min-h-[175px] shadow-sm hover:scale-[1.03] transition-all duration-300">
-                <AsusIcon className="w-16 h-12 text-white mt-1" />
+              <div className="bg-white border border-slate-200 rounded-3xl p-6 flex flex-col items-center justify-between text-center min-h-[175px] shadow-sm hover:scale-[1.03] transition-all duration-300 hover:border-slate-300">
+                <AsusIcon className="w-16 h-12 text-slate-800 mt-1" />
                 <div className="mt-4">
-                  <h4 className="text-xs font-bold uppercase tracking-wider text-white">ASUS</h4>
+                  <h4 className="text-xs font-bold uppercase tracking-wider text-slate-900">ASUS</h4>
                   <p className="text-[10px] text-slate-500 mt-1">Authorized Partner</p>
                 </div>
               </div>
@@ -789,7 +789,7 @@ export default function Home() {
                 {/* Floating "Open in Maps" button */}
                 <div className="absolute top-6 left-6 z-10">
                   <a
-                    href="https://maps.google.com/?q=438,+VAIYAPURI+NAGAR,+2ND+CROSS,+Anna+Colony,+Kongu+Nagar,+Vengamedu,+Karur,+639002"
+                    href="https://maps.app.goo.gl/pXH1LLWKVXa8jrKs9"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center gap-1.5 bg-white/95 hover:bg-white border border-slate-200 text-xs font-bold text-slate-800 px-3 py-2 rounded-xl transition-all shadow-md backdrop-blur-sm"
@@ -803,7 +803,7 @@ export default function Home() {
                 <div className="w-full h-full flex-grow rounded-2xl overflow-hidden border border-slate-150 relative">
                   <iframe
                     title="Digital Network Office Location Map"
-                    src="https://maps.google.com/maps?q=438%20Vaiyapuri%20Nagar%202nd%20Cross%20Vengamedu%20Karur%20639002&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                    src="https://maps.google.com/maps?q=Digital%20Network%20Karur%20(10.9631803,78.068862)&t=&z=16&ie=UTF8&iwloc=&output=embed"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
